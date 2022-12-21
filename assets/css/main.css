@@ -7,6 +7,10 @@
   background-color: #1B1A17;
   font-family: "Source Sans Pro", sans-serif;
 }
+* button {
+  width: 108px;
+  height: 46px;
+}
 
 header .header-nav {
   padding-left: 45px;
@@ -139,4 +143,153 @@ header nav .bank {
 header nav .bank i {
   color: white;
   background-color: #F0A500;
+}
+
+main {
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 45px;
+}
+
+#kart {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #2B2A2A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#kart .kart-section {
+  background-color: #2B2A2A;
+}
+#kart .kart-section h2 {
+  background-color: #2B2A2A;
+  width: 400px;
+  color: #F0A500;
+}
+#kart .kart-item {
+  background-color: #2B2A2A;
+  display: flex;
+}
+#kart .kart-item .kart-item-sum {
+  background-color: #2B2A2A;
+  margin-right: 20px;
+}
+#kart .kart-item p {
+  background-color: #2B2A2A;
+  color: #707070;
+}
+#kart .kart-item p b {
+  background-color: #2B2A2A;
+}
+#kart img {
+  background-color: #2B2A2A;
+}
+#kart .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid white;
+  text-align: center;
+}
+#kart .icon i {
+  padding-top: 8px;
+  background-color: #2B2A2A;
+}
+#kart button {
+  margin-top: 10px;
+  background-color: #3F5EFF;
+  border-radius: 10px;
+  border-style: none;
+}
+
+#change {
+  padding: 30px;
+}
+#change h3 {
+  color: #E4DA79;
+  font-size: 26px;
+}
+#change .kredit-kart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+#change .kredit-kart .kredit-kart-item {
+  background-color: #2B2A2A;
+  border-radius: 20px;
+  padding: 20px;
+}
+#change .kredit-kart .kredit-kart-item p {
+  background-color: #2B2A2A;
+  color: #707070;
+}
+#change .kredit-kart .kredit-kart-item img {
+  background-color: #2B2A2A;
+  margin-bottom: 20px;
+}
+
+#app {
+  padding: 30px;
+}
+#app h3 {
+  color: #E4DA79;
+}
+#app .bank-app {
+  border-radius: 25px;
+  background-color: #2B2A2A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#app .bank-app h2 {
+  color: #F0A500;
+  font-weight: 600;
+  background-color: #2B2A2A;
+}
+#app .bank-app .bank-app-item {
+  background-color: #2B2A2A;
+}
+#app .bank-app .bank-app-item > p {
+  width: 303px;
+  background-color: #2B2A2A;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#app .bank-app i {
+  background-color: black;
+}
+#app .bank-app .app-icon {
+  background-color: black;
+}
+#app .bank-app img {
+  background-color: #2B2A2A;
+}
+#app .bank-app .app-icon {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2B2A2A;
+}
+#app .bank-app .app-icon p {
+  background-color: black;
+}
+#app .bank-app .icon-item {
+  background-color: black;
+}
+#app .bank-app .icon {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+}
+#app .bank-app .icon p {
+  margin: 0;
+  padding-left: 10px;
+  height: 20px;
+}
+#app .bank-app .icon i {
+  font-size: 25px;
 }
