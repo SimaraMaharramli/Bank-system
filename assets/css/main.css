@@ -293,3 +293,140 @@ main {
 #app .bank-app .icon i {
   font-size: 25px;
 }
+
+#calculator {
+  padding: 30px;
+}
+#calculator h3 {
+  color: #E4DA79;
+  font-size: 26px;
+  font-weight: 700;
+}
+#calculator .cal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+#calculator input {
+  display: block;
+  margin: -4px;
+  width: 640px;
+  height: 40px;
+  padding: 20px;
+  border: 3px solid #2B2A2A;
+  border-radius: 5px;
+}
+#calculator .range {
+  height: 1px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+#calculator .sum {
+  padding: 20px;
+  text-align: center;
+  background-color: #2B2A2A;
+  border-radius: 15px;
+  width: 282px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#calculator .sum p {
+  background-color: #2B2A2A;
+  font-size: 32px;
+  color: #F0A500;
+  font-weight: 700;
+}
+#calculator .sum h5 {
+  background-color: #2B2A2A;
+  font-size: 16px;
+  font-weight: 600;
+}
+#calculator .sum button {
+  background-color: #3F5EFF;
+  border-radius: 10px;
+  border: none;
+}
+
+#news {
+  padding: 30px;
+}
+#news h3 {
+  color: #E4DA79;
+  font-size: 26px;
+  font-weight: 700;
+}
+#news .news-block {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#news .news-block .news-item {
+  background-color: #2B2A2A;
+  padding: 30px;
+  width: 449px;
+  border-radius: 15px;
+}
+#news .news-block .news-item p {
+  background-color: #2B2A2A;
+  width: 250px;
+}
+#news .news-block .news-item a {
+  background-color: #2B2A2A;
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+#news .news-block .news-item span {
+  background-color: #2B2A2A;
+  float: right;
+  color: #707070;
+}
+#news .news-block .news-item i {
+  background-color: #2B2A2A;
+  color: #3F5EFF;
+}
+
+#valyuta {
+  padding: 30px;
+}
+#valyuta h3 {
+  color: #E4DA79;
+  font-size: 26px;
+  font-weight: 700;
+}
+#valyuta .val-kol {
+  display: flex;
+  width: 389px;
+}
+#valyuta .val-kol .val-item {
+  padding-right: 30px;
+  text-align: left;
+}
+#valyuta .val-kol .val-item h6 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFEA77;
+}
+#valyuta .val-kol .val-item > p {
+  font-weight: 700;
+  font-size: 26px;
+}
+#valyuta .val-kol .val-count {
+  display: flex;
+}
+#valyuta .val-kol .val-count p {
+  font-weight: 300;
+  font-size: 26px;
+}
+#valyuta .val-kol .val-icon {
+  display: flex;
+  flex-direction: column;
+}
+#valyuta .val-kol .val-icon i {
+  margin: 0;
+  padding: 0;
+}
