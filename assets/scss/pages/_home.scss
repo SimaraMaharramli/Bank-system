@@ -373,6 +373,7 @@ padding-top: 45px;
             padding: 30px;
             width: 449px;
             border-radius: 15px;
+          
             p{
                 background-color: #2B2A2A;
                 width: 250px;
@@ -382,6 +383,7 @@ padding-top: 45px;
                 font-family: $primary-font;
                 text-decoration: none;
                 font-weight: 600;
+                transition: 0.5s;
             }
             span{
                 background-color: #2B2A2A;
@@ -393,6 +395,9 @@ padding-top: 45px;
                 color: #3F5EFF;
             }
         }
+        .extent{
+                margin-right: 30px;
+        }
     }
 }
 
@@ -403,37 +408,147 @@ padding-top: 45px;
         font-size: 26px;
         font-weight: 700;
     }
-
+    .val-con{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
     .val-kol{
         display: flex;
+        align-items: center;
         width: 389px;
+        background-color: #2B2A2A;
+        border-radius: 15px;
+        padding: 30px;
+        margin-right: 30px;
         .val-item{
             padding-right: 30px;
             text-align: left;
+            background-color: #2B2A2A;
             h6{
                 font-weight: 600;
                 font-size: 14px;
                 color: #FFEA77;
+                background-color: #2B2A2A;
             }
             >p{
                 font-weight: 700;
                 font-size: 26px ;
+                background-color: #2B2A2A;
             }
         }
         .val-count{
             display: flex;
+            align-items:center;
+            background-color: #2B2A2A;
             p{
                 font-weight: 300;
                 font-size: 26px;
+                background-color: #2B2A2A;
             }
+            
         }
         .val-icon{
             display: flex;
             flex-direction: column;
-            i{
-                margin: 0;
-                padding: 0;
+            padding-bottom: 20px;
+            padding-left: 7px;
+            background-color: #2B2A2A;
+            img{
+                background-color: #2B2A2A;
             }
+        }
+    }
+    .convert{
+        width: 700px;
+        background-color: #2B2A2A;
+        border-radius: 15px;
+        padding: 30px;
+        margin-left: 10px;
+        h3{
+            padding-left: 25px;
+        background-color: #2B2A2A;
+
+        }
+        input,label{
+            display: block;
+            background-color: #2B2A2A;
+        }
+        input{
+            background-color: white;
+            border: none;
+            border: none #2B2A2A solid;
+            border-radius: 10px;
+            width: 281px;
+            height: 46px;
+            color: black;
+            padding: 10px;
+        }
+        label{
+            display: block;
+            color: #707070;
+            text-align: left;
+        }
+        .icon{
+            display: flex;
+            flex-direction: column;
+            background-color: #2B2A2A;
+            padding-top: 20px;
+        }
+        i{
+            color: #FFEA77;
+            font-size: 16px;
+            background-color: #2B2A2A;
+        }
+        .sat{
+            margin-right: 20px;
+            background-color: #2B2A2A;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            padding: 25px;
+            background-color: #2B2A2A;
+        }
+        p{
+            background-color: #2B2A2A;
+            color: #707070;
+             padding-left: 25px;
+             padding-top: 25px;
+             
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+     h3{
+        color: #E4DA79;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .footer-item{
+        padding: 40px;
+    }
+}
+.foot-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 1px #707070 solid;
+    img{
+        padding: 10px;
+    }
+    .foot-icon{
+         display: flex;
+            align-items: center;
+        i{
+            color: white;
+            background-color: #1B1A17;
+            font-size: 26px;
+           margin: 5px;
         }
     }
 }

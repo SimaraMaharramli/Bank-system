@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./assets/js/main.js" defer></script>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/home-page/Ellipse 134.svg">
     <title>Bank</title>
 </head>
 <header>
@@ -183,13 +184,13 @@
     <section id="news">
         <h3>Son xəbərlər </h3>
         <div class="news-block">
-            <div class="news-item">
+            <div class="news-item extent">
                 <p>Goldkartla Apple Pay ödənişlərində
                     5% endirim qazan!</p>
                 <a href="">Daha ətraflı <i class="fa-solid fa-arrow-right"></i></a>
                 <span>9 dekabr 2022</span>
             </div>
-            <div class="news-item">
+            <div class="news-item extent">
                 <p>Artıq card to card əməliyyatları
                     kommissiyasız!</p>
                 <a href="">Daha ətraflı <i class="fa-solid fa-arrow-right"></i></a>
@@ -206,64 +207,138 @@
 
     <section id="valyuta">
         <h3>Valyuta kursu</h3>
-        <div class="val-kol">
-            <div class="val-item">
-                <h6>Valyuta</h6>
-                <p>USD</p>
-                <p>EUR</p>
-                <p>RUB</p>
+        <div class="val-con">
+            <div class="val-kol">
+                <div class="val-item">
+                    <h6>Valyuta</h6>
+                    <p>USD</p>
+                    <p>EUR</p>
+                    <p>RUB</p>
+                </div>
+                <div class="val-item">
+                    <h6>Alış</h6>
+                    <div class="val-count">
+                        <p>1.6921</p>
+                        <div class="val-icon">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="val-count">
+                        <p>1.7422</p>
+                        <div class="val-icon">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="val-count">
+                        <p>0.0323</p>
+                        <div class="val-icon">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="val-item">
+                    <h6>Satış</h6>
+                    <div class="val-count">
+                        <p>0.0323</p>
+                        <div class="val-icon sell">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="val-count">
+                        <p>0.0323</p>
+                        <div class="val-icon sell">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="val-count">
+                        <p>0.0323</p>
+                        <div class="val-icon sell">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                            <img src="./assets/img/home-page/Vector-up.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="val-item">
-                <h6>Alış</h6>
-                <div class="val-count">
-                    <p>1.6921</p>
-                    <div class="val-icon">
-                        <i class="fa-solid fa-chevron-down"></i>
-                        <i class="fa-solid fa-chevron-down"></i>
+            <div class="convert">
+                <h3>Valyuta kursu</h3>
+                <form action="">
+                    <div class="sat">
+                        <label for="">Satıram</label>
+                        <input type="number">
                     </div>
-                </div>
-                <div class="val-count">
-                    <p>1.7422</p>
-                    <div class="val-icon">
-                        <i class="fa-solid fa-chevron-down"></i>
-                        <i class="fa-solid fa-chevron-down"></i>
+                    <div class="icon sat">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
                     </div>
-                </div>
-                <div class="val-count">
-                    <p>0.0323</p>
-                    <div class="val-icon">
-                        <i class="fa-solid fa-chevron-down"></i>
-                        <i class="fa-solid fa-chevron-down"></i>
+                    <div class="al">
+                        <label for="">Alıram</label>
+                        <input type="number">
                     </div>
-                </div>
-            </div>
-            <div class="val-item">
-                <h6>Satış</h6>
-                <div class="val-count">
-                    <p>0.0323</p>
-                    <div class="val-icon sell">
-                        <i class="fa-solid fa-chevron-up"></i>
-                        <i class="fa-solid fa-chevron-up"></i>
-                    </div>
-                </div>
-                <div class="val-count">
-                    <p>0.0323</p>
-                    <div class="val-icon sell">
-                        <i class="fa-solid fa-chevron-up"></i>
-                        <i class="fa-solid fa-chevron-up"></i>
-                    </div>
-                </div>
-                <div class="val-count">
-                    <p>0.0323</p>
-                    <div class="val-icon sell">
-                        <i class="fa-solid fa-chevron-up"></i>
-                        <i class="fa-solid fa-chevron-up"></i>
-                    </div>
-                </div>
+                </form>
+                <p>Qeyd: *Kurs 09.12.22 tarixinə qədər aktivdir.</p>
             </div>
         </div>
     </section>
 </main>
+
+<footer>
+    <div class="footer-item">
+        <h3>Ferdi</h3>
+        <p>Kreditler</p>
+        <p>Emanetler</p>
+        <p>Kartlar</p>
+        <p>Pul kocurmeleri</p>
+        <p>Onlayn xidmetler</p>
+    </div>
+    <div class="footer-item">
+        <h3>Biznes</h3>
+        <p>Kreditler</p>
+        <p>Emanetler</p>
+        <p>Kartlar</p>
+        <p>Pul kocurmeleri</p>
+        <p>Onlayn xidmetler</p>
+    </div>
+    <div class="footer-item">
+        <h3>Haqqimizda</h3>
+        <p>Kreditler</p>
+        <p>Emanetler</p>
+        <p>Kartlar</p>
+        <p>Pul kocurmeleri</p>
+        <p>Onlayn xidmetler</p>
+    </div>
+    <div class="footer-item">
+        <h3>Bas ofis</h3>
+        <p>Kreditler</p>
+        <p>Emanetler</p>
+        <p>Kartlar</p>
+        <p>Pul kocurmeleri</p>
+        <p>Onlayn xidmetler</p>
+    </div>
+</footer>
+<div class="foot-bar">
+    <div class="foot-icon">
+        <p>© 2022, GoldBank<br> Bütün hüquqlar qorunur.</p>
+    </div>
+    <div class="foot-icon">
+        <img src="/assets/img/home-page/image 8.svg" alt="">
+        <img src="/assets/img/home-page/image 9.svg" alt="">
+        <img src="/assets/img/home-page/image 10.svg" alt="">
+        <img src="/assets/img/home-page/image 11.svg" alt="">
+    </div>
+    <div class="foot-icon">
+        <i class="fa-brands fa-linedn"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-watsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+</div>
 
 <body>
 
